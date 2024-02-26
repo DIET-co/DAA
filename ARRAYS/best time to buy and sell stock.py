@@ -20,3 +20,5 @@ prices = [5, 7, 5, 3, 6, 4]
 solution = Solution()
 maxProfit = solution.maxProfit(prices)
 print(maxProfit)
+
+#time Complexity O(N)
