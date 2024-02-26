@@ -13,3 +13,6 @@ def print_pascals_triangle(height):
 # Get input from user
 height = int(input("Enter the height of the Pascal's triangle: "))
 print_pascals_triangle(height)
+
+##time complexity O(N^2).
+##space complexity O(N^2).
