@@ -14,6 +14,7 @@ def bucketsort(array):
 
     return sorted_array
 
+
 if __name__ == "__main__":
     array = input("Enter the array elements separated by space: ")
     array = [int(x) for x in array.split()]
