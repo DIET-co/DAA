@@ -11,7 +11,7 @@ def is_palindrome(s):
     # Recursive step: check if the substring excluding the first and last characters is a palindrome
     return is_palindrome(s[1:-1])
 
-# Test the function
+
 strings = ["racecar", "gohangasalamiimalasagnahog", "hello", "level", "radar"]
 for string in strings:
     print(f"{string}: {is_palindrome(string)}")
