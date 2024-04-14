@@ -31,8 +31,9 @@ def merge(L, R, array):
         k += 1
 
 if __name__ == "__main__":
-    array = input("Enter the array elements separated by space: ")
-    array = [int(x) for x in array.split()]
+    array = [34, 3, 89, 20, 47, 2, 65]
+    #array = input("Enter the array elements separated by space: ")
+    #array = [int(x) for x in array.split()]
     mergeSort(array)
     print("Sorted array is:")
     print(array)
